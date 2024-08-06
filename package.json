@@ -1,0 +1,30 @@
+{
+	"type": "module",
+	"name": "eslint-config-types",
+	"version": "1.0.0",
+	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+	"license": "ISC",
+	"description": "ESLint configuration for JavaScript using stripped types, without TypeScript runtime features",
+	"keywords": [
+		"eslint",
+		"eslintconfig"
+	],
+	"repository": "nickserv/eslint-config-types",
+	"scripts": {
+		"test": "eslint"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^8.0.1",
+		"@typescript-eslint/parser": "^8.0.1",
+		"eslint": "^9.8.0",
+		"prettier": "^3.3.3",
+		"prettier-config-a11y": "^2.0.0-alpha.3"
+	},
+	"peerDependencies": {
+		"@typescript-eslint/eslint-plugin": "*",
+		"@typescript-eslint/parser": "*",
+		"eslint": "*"
+	},
+	"packageManager": "pnpm@9.6.0+sha512.38dc6fba8dba35b39340b9700112c2fe1e12f10b17134715a4aa98ccf7bb035e76fd981cf0bb384dfa98f8d6af5481c2bef2f4266a24bfa20c34eb7147ce0b5e",
+	"prettier": "prettier-config-a11y"
+}
