@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"name": "eslint-config-types",
-	"version": "1.0.0-alpha.2",
+	"version": "1.0.0-alpha.3",
 	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
 	"license": "ISC",
 	"description": "ESLint configuration for JavaScript using stripped types, without TypeScript runtime features",
