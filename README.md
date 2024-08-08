@@ -16,6 +16,12 @@ export default [
 ];
 ```
 
+In your `.eslintrc.json` file, add:
+
+```json
+"extends": "types/legacy"
+```
+
 ## Inspiration
 
 https://x.com/sebastienlorber/status/1820497162872226062
