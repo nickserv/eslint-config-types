@@ -1,0 +1,9 @@
+{
+	"@typescript-eslint/no-namespace": "error",
+	"@typescript-eslint/parameter-properties": "error",
+	"no-restricted-syntax": [
+		"error",
+		"PropertyDefinition[accessibility]",
+		"TSEnumDeclaration"
+	]
+}

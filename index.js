@@ -1,5 +1,6 @@
 import plugin from "@typescript-eslint/eslint-plugin";
 import parser from "@typescript-eslint/parser";
+import rules from "./rules.json" with { type: "json" };
 
 export default {
 	languageOptions: {
@@ -11,13 +12,5 @@ export default {
 	plugins: {
 		"@typescript-eslint": plugin,
 	},
-	rules: {
-		"@typescript-eslint/no-namespace": "error",
-		"@typescript-eslint/parameter-properties": "error",
-		"no-restricted-syntax": [
-			"error",
-			"PropertyDefinition[accessibility]",
-			"TSEnumDeclaration",
-		],
-	},
+	rules,
 };
