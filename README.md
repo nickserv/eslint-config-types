@@ -25,3 +25,8 @@ In your `.eslintrc.json` file, add:
 ## Inspiration
 
 https://x.com/sebastienlorber/status/1820497162872226062
+
+## Thanks
+
+- @slorber
+- @JoshuaKGoldberg
