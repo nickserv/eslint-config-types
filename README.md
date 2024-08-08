@@ -28,5 +28,5 @@ https://x.com/sebastienlorber/status/1820497162872226062
 
 ## Thanks
 
-- @slorber
-- @JoshuaKGoldberg
+- [Sébastien Lorber](https://github.com/slorber)
+- [Josh Goldberg](https://github.com/JoshuaKGoldberg)
