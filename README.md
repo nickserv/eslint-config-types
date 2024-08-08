@@ -3,6 +3,20 @@
 ESLint configuration for JavaScript using stripped types, without TypeScript
 runtime features
 
+## Installation
+
+```
+npm install --save-dev eslint eslint-config-types@alpha
+```
+
+```
+pnpm install --save-dev eslint eslint-config-types@alpha
+```
+
+```
+yarn add --dev eslint eslint-config-types@alpha @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint
+```
+
 ## Usage
 
 In your `eslint.config.js` file, add:
