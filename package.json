@@ -1,8 +1,9 @@
 {
 	"type": "module",
 	"name": "eslint-config-types",
-	"version": "1.0.0-legacy.3",
+	"version": "1.0.0-legacy.4",
 	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
+	"exports": "./index.js",
 	"license": "ISC",
 	"description": "ESLint configuration for JavaScript using stripped types, without TypeScript runtime features",
 	"keywords": [
