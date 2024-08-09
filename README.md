@@ -6,15 +6,15 @@ runtime features
 ## Installation
 
 ```
-npm install --save-dev eslint eslint-config-types@legacy
+npm install --save-dev eslint eslint-config-types
 ```
 
 ```
-pnpm install --save-dev eslint eslint-config-types@legacy
+pnpm install --save-dev eslint eslint-config-types
 ```
 
 ```
-yarn add --dev eslint eslint-config-types@legacy @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint
+yarn add --dev eslint eslint-config-types @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint
 ```
 
 ## Usage
