@@ -1,7 +1,7 @@
 {
 	"type": "module",
 	"name": "eslint-config-types",
-	"version": "1.0.0-legacy.6",
+	"version": "1.0.0-alpha.5",
 	"author": "Nick McCurdy <nick@nickmccurdy.com> (https://nickmccurdy.com/)",
 	"exports": {
 		".": "./index.js",
