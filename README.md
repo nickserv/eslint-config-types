@@ -4,8 +4,12 @@ ESLint configuration for JavaScript using stripped types, without TypeScript
 runtime features
 
 > [!WARNING]  
-> This package will be deprecated in favor of [the `--erasableSyntaxOnly` option in TypeScript 5.8](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/#the---erasablesyntaxonly-option). \
-> If you're not already using `eslint-config-types`, I recommend trying out [TypeScript 5.8 beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/) instead.
+> This package will be deprecated in favor of
+> [the `--erasableSyntaxOnly` option in TypeScript 5.8](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/#the---erasablesyntaxonly-option).
+> \
+> If you're not already using `eslint-config-types`, I recommend trying out
+> [TypeScript 5.8 beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/)
+> instead.
 
 ## Installation
 
@@ -39,6 +43,27 @@ In your `.eslintrc.json` file, add:
 ```json
 "extends": "types/legacy"
 ```
+
+## Environment support
+
+This config only allows TypeScript features supported in the following
+environments:
+
+- Babel
+- Bun
+- Deno
+- esbuild
+- Node.js
+- swc
+- Vite
+
+## Features to avoid
+
+- [Experimental decorators](https://www.typescriptlang.org/tsconfig/#experimentalDecorators)
+- [Namespaces](https://www.typescriptlang.org/docs/handbook/namespaces.html)
+- [Parameter properties](https://www.typescriptlang.org/docs/handbook/2/classes.html#parameter-properties)
+- Property accessibility
+- [Enums](https://www.typescriptlang.org/docs/handbook/enums.html)
 
 ## Inspiration
 
