@@ -3,6 +3,10 @@
 ESLint configuration for JavaScript using stripped types, without TypeScript
 runtime features
 
+> [!WARNING]  
+> This package will be deprecated in favor of [the `--erasableSyntaxOnly` option in TypeScript 5.8](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/#the---erasablesyntaxonly-option). \
+> If you're not already using `eslint-config-types`, I recommend trying out [TypeScript 5.8 beta](https://devblogs.microsoft.com/typescript/announcing-typescript-5-8-beta/) instead.
+
 ## Installation
 
 ```
